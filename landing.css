@@ -1,0 +1,246 @@
+/* 
+#303030 RGB (48, 48, 48,)
+#fffd6b RGB (255, 253, 107)
+
+*/
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    color: #303030;
+    position: relative;
+}
+
+h2{
+    font-family: 'Sacramento', cursive;
+}
+
+/* Navbar */
+
+.navbar-light{
+    background-color:#303030;
+}
+
+.fa-utensils{
+    color: #fffd6b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fffd6b;
+    opacity: 0.5;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fffd6b;
+    opacity: 1;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active
+{
+    color: #fffd6b;
+    opacity: 1;
+    border-bottom: solid 2px #fffd6b; ;
+}
+
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,253,107, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border-color:  #fffd6b;
+  } 
+
+/* Hero */
+.hero{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #fffd6b;
+    height: 700px;
+    margin:0px;
+}
+
+.hero-inner h1{
+    margin:auto;
+    color: #fffd6b;
+    font-size: 5vw;
+    line-height: 1em;
+}
+
+/* Our Story */
+.home{
+    padding-top:10vh;
+    padding-bottom:10vh;
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    
+}
+
+.img-box img {
+    max-width: 60vw;
+    max-height: 50vh;
+    z-index: -2;
+    padding-left:7vw;
+}
+
+.text-box {
+    color:#303030;
+    margin-top: -50vh;
+    margin-left: 10vw;
+    text-align: center;
+    position:relative;
+    display:table;
+    background-color: RGB(255, 253, 107, 0.3);
+    height: 45vh;
+    width: 65vw;
+    border: 5px solid #fffd6b;
+}
+
+.text {
+    display: table-cell; 
+    vertical-align: middle; 
+    font-size: 3.12vh;
+}
+
+#home1{
+    visibility: hidden;
+}
+
+/* Menu */
+
+#menu1{
+    visibility: hidden;
+}
+
+.menu_row{
+    max-height:800px;
+    width: 100%;
+
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    color: #303030;
+    background-color: #fffd6b;
+}
+
+.nav{
+    padding-left:35%;
+}
+
+a {
+    color: #303030;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    color: #fffd6b;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-tabs {
+    justify-content: center;
+}
+
+.tab-content{
+    padding-top:10px;
+}
+
+.tab-content .row{
+    margin-bottom:5px;
+}
+
+.tab-content img{
+    max-width: 50%;
+    max-height: auto;
+    margin:auto;
+    display: block;
+}
+
+.menu_description{
+    text-align: center;
+    margin:auto;
+}
+
+/* Carousel */
+
+#opinions1{
+    visibility: hidden;
+}
+
+.opinions{
+    height:300px;
+    padding-top: 20px;
+    margin-top:50px;
+    width:100%;
+    background-color:RGB(255, 253, 107, 0.3);
+}
+
+#opinionscarousel{
+    margin: auto;
+    padding-top: 5vh;
+}
+
+.carousel-inner{
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.carousel-item{
+    color:#303030;
+    font-size: 2vh;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='black' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+/* Contact */
+
+.contact{
+    height:200px;
+    padding-top: 20px;
+    margin-top:50px;
+    margin-bottom:10px;
+    width:100%;
+    background-color:RGB(48, 48, 48, 0.3);
+    text-align: center;
+}
+
+.contact p{
+    font-size: 1.3em;
+}
+
+.fa-facebook-f{
+    margin-left: 10px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    text-align: center;
+    color: #fffd6b;
+}
+
+/* Animation */
+
+.fadeIn {
+    -webkit-animation: animat_show 0.5s;
+    animation: animat_show 0.5s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0% {opacity:0}
+    100% {opacity:1}
+}
